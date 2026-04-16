@@ -1,0 +1,18 @@
+{
+  "name": "arrow_compare",
+  "display_name": "矢印付き比較",
+  "category": "comparison",
+  "min_images": 2,
+  "max_images": 2,
+  "parameters": {
+    "split_ratio": {"type": "float", "default": 0.5, "min": 0.05, "max": 0.95, "label": "分割位置"},
+    "border_width": {"type": "int", "default": 2, "min": 0, "max": 20, "label": "境界線太さ"},
+    "border_color": {"type": "color", "default": "#FFFFFF", "label": "境界線色"},
+    "arrow_style": {"type": "choice", "default": "▶", "choices": ["▶", "→", "VS", "▷"], "label": "矢印スタイル"},
+    "arrow_size": {"type": "int", "default": 64, "min": 24, "max": 128, "label": "矢印サイズ(px)"}
+  },
+  "text_overlay": {
+    "label": null,
+    "arrow": {"position": "center", "shadow": true}
+  }
+}

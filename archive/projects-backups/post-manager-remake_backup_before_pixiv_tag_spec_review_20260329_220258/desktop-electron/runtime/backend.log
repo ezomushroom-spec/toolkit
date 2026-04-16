@@ -1,0 +1,112 @@
+
+=== backend start 2026-03-27T17:01:10.788Z ===
+INFO:     Started server process [49848]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\自作アプリ集\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:58031 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58035 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58035 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58047 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-27T17:04:34.857Z ===
+INFO:     Started server process [21688]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\自作アプリ集\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:58224 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58225 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58225 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58226 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58225 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58226 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58228 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-27T19:18:04.198Z ===
+INFO:     Started server process [49388]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:61151 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61152 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61153 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61152 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61152 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61153 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-27T19:39:59.072Z ===
+INFO:     Started server process [16884]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:57285 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57287 - "GET /static/script.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57287 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK

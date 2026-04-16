@@ -1,0 +1,475 @@
+
+=== backend start 2026-03-27T17:01:10.788Z ===
+INFO:     Started server process [49848]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\自作アプリ集\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:58031 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58035 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58034 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58035 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58047 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58037 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-27T17:04:34.857Z ===
+INFO:     Started server process [21688]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\自作アプリ集\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:58224 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58225 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58225 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58226 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58225 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58226 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58228 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58227 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-27T19:18:04.198Z ===
+INFO:     Started server process [49388]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:61151 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61152 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61153 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61152 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61152 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61153 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61154 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-27T19:39:59.072Z ===
+INFO:     Started server process [16884]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:57285 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57287 - "GET /static/script.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57287 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57286 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57288 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57373 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-29T16:41:34.383Z ===
+INFO:     Started server process [57132]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:52777 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52778 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52778 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52779 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52779 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52778 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52780 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52780 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52780 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52780 - "POST /api/validate-folder HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /api/pixiv-tags/suggest?title=extras-images&caption_pixiv=&target_folder=E%3A%5Ceasyreforge%5Cstable-diffusion-webui-reForge%5Coutputs%5Cextras-images&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52782 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-30T17:12:12.631Z ===
+INFO:     Started server process [49640]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:60068 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60069 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60070 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60071 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-03-30T17:25:22.787Z ===
+INFO:     Started server process [42388]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:57474 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49439 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49440 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49441 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=fe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%B5%E3%81%87 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%B5%E3%81%87%EF%BD%92 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%B5%E3%81%87%E3%82%89 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%95%E3%82%A7%E3%83%A9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%95%E3%82%A7%E3%83%A9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49442 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%95%E3%82%A7%E3%83%A9%E3%81%A1%E3%81%8A HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%95%E3%82%A7%E3%83%A9%E3%83%81%E3%82%AA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%95%E3%82%A7%E3%83%A9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%EF%BD%86 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%B5%E3%81%87 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%95%E3%82%A7%E3%83%A9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%BD%E3%81%91%E3%82%82%EF%BD%8E HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%EF%BD%93 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%9B%E3%82%8C%E3%81%AA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%82%BB%E3%83%AC%E3%83%8A HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%82%BB%E3%83%AC%E3%83%8A HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%92%EF%BD%8E HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%92%E3%82%93%E3%81%97 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E5%8E%9F%E7%A5%9E HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%A8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E6%9D%B1%E5%AE%9D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E6%9D%B1%E9%82%A6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E5%BD%93%E6%96%B9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E6%9D%B1%E6%96%B9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E6%9D%B1%E6%96%B9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%82%8C%E3%81%84 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%82%8C%E3%81%84%EF%BD%8D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E9%9C%8A%E5%A4%A2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49445 - "GET /api/pixiv-tags/suggest?title=%E3%81%A8&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E3%81%A8%E3%81%86&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E6%9D%B1%E5%AE%9D&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E6%9D%B1%E9%82%A6&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E5%BD%93%E6%96%B9&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E6%9D%B1%E6%96%B9&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E6%9D%B1%E6%96%B9&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E3%81%8A&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E3%81%BD&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+
+=== backend start 2026-04-01T12:23:02.765Z ===
+INFO:     Started server process [60724]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:64962 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59491 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59491 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59492 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59492 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59491 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=R-18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=R-18+%E7%94%B7%E3%81%AE%E5%AD%90 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=R-18+ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=poke HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=p HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%EF%BD%90 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59493 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%BD HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%BD%E3%81%91 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%82%A8%E3%83%AD HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%82%82%EF%BD%8D HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64095 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%82%82%EF%BD%8E HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3+R-18 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3+R-18+%E3%82%80%E3%81%A1%E3%82%80%E3%81%A1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3+R-18+%E3%82%80%E3%81%A1%E3%82%80%E3%81%A1+%E5%B7%A8%E4%B9%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51654 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-04-01T12:31:00.033Z ===
+INFO:     Started server process [26080]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:52890 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52891 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52892 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=po HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=poke HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%81%BD HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%82%82 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%82%82%E3%82%93 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E9%96%80 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E9%96%80 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%82%82%EF%BD%8E HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3&caption_pixiv=&target_folder=&current_tags=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%81%88%E3%82%8D&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%82%A8%E3%83%AD&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%83%9D%E3%82%B1%E3%82%A8%E3%83%AD&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%EF%BD%9A&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%81%9C%EF%BD%8E&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%81%9C%E3%82%93%EF%BD%9A&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%81%9C%E3%82%93%E3%81%9C%E3%82%8D&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%82%BC%E3%83%B3%E3%82%BC%E3%83%AD&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%82%BC%E3%83%B3%E3%82%BC%E3%83%AD&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/pixiv-tags/suggest?title=%E3%82%BC%E3%83%B3%E3%82%BC%E3%83%AD&caption_pixiv=&target_folder=&current_tags= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52893 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-04-01T15:53:05.371Z ===
+INFO:     Started server process [66876]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:56788 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56789 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56789 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56790 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56791 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-04-01T16:09:09.304Z ===
+INFO:     Started server process [61160]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:53540 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53541 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53542 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53543 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51067 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57099 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57100 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54527 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57806 - "GET /api/runtime-status HTTP/1.1" 200 OK
+
+=== backend start 2026-04-01T16:27:52.922Z ===
+INFO:     Started server process [25640]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Post Manager API Server starting...
+Base directory: E:\\u81ea\u4f5c\u30a2\u30d7\u30ea\u96c6\workspace\projects\post-manager-remake\app
+INFO:     127.0.0.1:53884 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53886 - "GET /static/script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53886 - "GET /api/tasks HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53885 - "GET /api/settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/pixiv-tags/suggest?current_tags=&browse_vocabulary=1&tag_query= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53888 - "GET /api/runtime-status HTTP/1.1" 200 OK

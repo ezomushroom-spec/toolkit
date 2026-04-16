@@ -1,0 +1,50 @@
+:root {
+  color: #3f454b;
+  background: #eef1f4;
+  font-family:
+    'Segoe UI Variable Text', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo',
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --accent: #2f6feb;
+  --text-strong: #20262d;
+  --text-muted: #65707c;
+  --panel-bg: #ffffff;
+  --panel-border: #d8dee6;
+  --panel-shadow: 0 4px 18px rgba(17, 24, 39, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  margin: 0;
+  line-height: 1.08;
+  color: var(--text-strong);
+}
+
+p {
+  margin: 0;
+}

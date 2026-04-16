@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Post Manager - マルチプラットフォーム投稿管理ツール">
+    <title>📮 Post Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- ヘッダー -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1 class="logo">📮 Post Manager</h1>
+                <span class="version-badge">v2.0</span>
+            </div>
+            <div class="header-status">
+                <span id="connection-status" class="status-indicator offline">
+                    <span class="status-dot"></span>
+                    <span class="status-text">接続中...</span>
+                </span>
+            </div>
+        </header>
+
+        <!-- メインタブ -->
+        <nav class="main-tabs">
+            <button class="tab-btn active" data-tab="tasks">📋 タスク</button>
+            <button class="tab-btn" data-tab="settings">⚙️ 設定</button>
+            <button class="tab-btn" data-tab="logs">📊 ログ</button>
+        </nav>
+
+        <!-- メインコンテンツ -->
+        <main class="main-content">
+            <!-- タスクタブ -->
+            <div id="tab-tasks" class="tab-content active">
+                <div class="tab-layout">
+                    <!-- タスク一覧パネル -->
+                    <section class="panel tasks-panel">
+                        <div class="panel-header">
+                            <h2>📁 タスク一覧</h2>
+                            <div class="panel-actions">
+                                <button id="refresh-btn" class="btn btn-icon" title="更新">🔄</button>
+                                <button id="add-task-btn" class="btn btn-primary">+ 追加</button>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="task-workflow-card">
+                                <div class="task-workflow-copy">
+                                    <p class="task-workflow-title">進め方</p>
+                                    <p class="task-workflow-text">1. タスクを確認・編集してから、右側の前処理を実行します。Pixiv / Patreon はブラウザ補助までで、公開操作は手動確認です。</p>
+                                </div>
+                            </div>
+                            <div class="task-summary" id="task-summary">
+                                <div class="summary-card">
+                                    <span class="summary-label">総タスク</span>
+                                    <strong id="summary-total">0</strong>
+                                </div>
+                                <div class="summary-card">
+                                    <span class="summary-label">MEGA完了</span>
+                                    <strong id="summary-completed">0</strong>
+                                </div>
+                                <div class="summary-card">
+                                    <span class="summary-label">未処理</span>
+                                    <strong id="summary-pending">0</strong>
+                                </div>
+                            </div>
+                            <div id="tasks-container" class="tasks-list">
+                                <div class="empty-state" id="empty-state">
+                                    <span class="empty-icon">📭</span>
+                                    <p>タスクがありません</p>
+                                    <p class="empty-hint">「+ 追加」ボタンでタスクを作成</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- アクションパネル -->
+                    <section class="panel actions-panel">
+                        <div class="panel-header">
+                            <h2>🚀 アクション</h2>
+                        </div>
+                        <div class="panel-body">
+                            <div class="action-intro">
+                                <p class="action-intro-title">実行の考え方</p>
+                                <p class="action-intro-text">前処理はこの画面で完結し、Pixiv / Patreon はブラウザ確認までを補助します。</p>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="btn btn-action" data-step="clean">
+                                    <span class="btn-icon">🧹</span>
+                                    <span class="action-copy">
+                                        <span class="btn-label">Clean & Zip</span>
+                                        <span class="btn-subtext">Pixiv画像を clean し、Patreon 配布 zip を作成</span>
+                                    </span>
+                                </button>
+                                <button class="btn btn-action" data-step="mega">
+                                    <span class="btn-icon">☁️</span>
+                                    <span class="action-copy">
+                                        <span class="btn-label">MEGA Upload</span>
+                                        <span class="btn-subtext">未登録の zip をアップロードし、MEGA URL を保存</span>
+                                    </span>
+                                </button>
+                                <button class="btn btn-action" data-step="pixiv">
+                                    <span class="btn-icon">🎨</span>
+                                    <span class="action-copy">
+                                        <span class="btn-label">Pixiv</span>
+                                        <span class="btn-subtext">投稿画面の入力補助まで。最終投稿は手動確認</span>
+                                    </span>
+                                </button>
+                                <button class="btn btn-action" data-step="patreon">
+                                    <span class="btn-icon">🎁</span>
+                                    <span class="action-copy">
+                                        <span class="btn-label">Patreon</span>
+                                        <span class="btn-subtext">作成画面の準備まで。公開操作は手動確認</span>
+                                    </span>
+                                </button>
+                                <button class="btn btn-action" data-step="discord">
+                                    <span class="btn-icon">💬</span>
+                                    <span class="action-copy">
+                                        <span class="btn-label">Discord</span>
+                                        <span class="btn-subtext">Webhook で通知を送信</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="action-divider"></div>
+                            <div class="action-note">
+                                <p class="action-note-title">まとめ実行の範囲</p>
+                                <p class="action-note-text">このボタンは `Clean -> MEGA -> Discord` の前処理系だけを順番に実行します。</p>
+                            </div>
+                            <button id="run-all-btn" class="btn btn-primary btn-large">
+                                ▶ 前処理まとめ実行
+                            </button>
+                            <div id="execution-status" class="execution-status hidden">
+                                <div class="execution-status-header">
+                                    <span class="execution-status-label">実行状態</span>
+                                    <button id="stop-process-btn" class="btn btn-secondary btn-small hidden" type="button">停止</button>
+                                </div>
+                                <p id="execution-status-text" class="execution-status-text">待機中</p>
+                            </div>
+                            <div id="progress-container" class="progress-container hidden">
+                                <div class="progress-bar">
+                                    <div id="progress-fill" class="progress-fill"></div>
+                                </div>
+                                <span id="progress-text" class="progress-text">0%</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- 設定タブ -->
+            <div id="tab-settings" class="tab-content">
+                <section class="panel settings-panel">
+                    <div class="panel-header">
+                        <h2>⚙️ 設定</h2>
+                        <button id="save-settings-btn" class="btn btn-primary">💾 保存</button>
+                    </div>
+                    <div class="panel-body">
+                        <form id="settings-form">
+                            <!-- MEGA設定 -->
+                            <div class="settings-section">
+                                <h3>☁️ MEGA</h3>
+                                <div class="form-group">
+                                    <label for="mega-email">メールアドレス</label>
+                                    <input type="email" id="mega-email" name="mega_email"
+                                        placeholder="your-email@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="mega-password">パスワード</label>
+                                    <input type="password" id="mega-password" name="mega_password"
+                                        placeholder="●●●●●●●●">
+                                    <small class="form-hint">空欄の場合は既存のパスワードを維持</small>
+                                </div>
+                            </div>
+
+                            <!-- Discord設定 -->
+                            <div class="settings-section">
+                                <h3>💬 Discord</h3>
+                                <div class="form-group">
+                                    <label for="discord-webhook">Webhook URL</label>
+                                    <input type="url" id="discord-webhook" name="discord_webhook_url"
+                                        placeholder="https://discord.com/api/webhooks/...">
+                                </div>
+                            </div>
+
+                            <!-- テンプレート設定 -->
+                            <div class="settings-section">
+                                <h3>📝 キャプションテンプレート</h3>
+                                <p class="form-hint">変数: {title}, {caption_pixiv}, {caption_patreon}, {caption_discord},
+                                    {tags}, {zip_url}</p>
+                                <div class="form-group">
+                                    <label for="template-pixiv">Pixiv テンプレート</label>
+                                    <textarea id="template-pixiv" name="template_pixiv"
+                                        rows="2">{caption_pixiv}</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="template-patreon">Patreon テンプレート</label>
+                                    <textarea id="template-patreon" name="template_patreon"
+                                        rows="2">{caption_patreon}</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="template-discord">Discord テンプレート</label>
+                                    <textarea id="template-discord" name="template_discord"
+                                        rows="2">{caption_discord}</textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ログタブ -->
+            <div id="tab-logs" class="tab-content">
+                <section class="panel log-panel full-height">
+                    <div class="panel-header">
+                        <h2>📊 ログ</h2>
+                        <button id="clear-log-btn" class="btn btn-icon" title="クリア">🗑️</button>
+                    </div>
+                    <div class="panel-body">
+                        <div id="log-container" class="log-container">
+                            <div class="log-entry log-info">
+                                <span class="log-time">--:--:--</span>
+                                <span class="log-message">Post Manager を起動しました</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- フッター -->
+        <footer class="app-footer">
+            <p>Powered by <strong>YOROZU</strong> ✨</p>
+        </footer>
+    </div>
+
+    <!-- タスク詳細編集モーダル -->
+    <div id="edit-task-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3>📝 タスク編集</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="edit-task-form">
+                    <input type="hidden" id="edit-task-index" name="index" value="-1">
+
+                    <!-- 基本情報 -->
+                    <div class="form-section">
+                        <h4>📋 基本情報</h4>
+                        <div class="form-row">
+                            <div class="form-group flex-2">
+                                <label for="edit-title">タイトル *</label>
+                                <input type="text" id="edit-title" name="title" required placeholder="作品タイトル">
+                            </div>
+                            <div class="form-group flex-1">
+                                <label for="edit-schedule">予約投稿日</label>
+                                <input type="date" id="edit-schedule-date" name="schedule_date">
+                            </div>
+                            <div class="form-group flex-1">
+                                <label for="edit-schedule-time">時刻 (30分刻み)</label>
+                                <select id="edit-schedule-time" name="schedule_time">
+                                    <option value="">--:--</option>
+                                    <option value="00:00">00:00</option>
+                                    <option value="00:30">00:30</option>
+                                    <option value="01:00">01:00</option>
+                                    <option value="01:30">01:30</option>
+                                    <option value="02:00">02:00</option>
+                                    <option value="02:30">02:30</option>
+                                    <option value="03:00">03:00</option>
+                                    <option value="03:30">03:30</option>
+                                    <option value="04:00">04:00</option>
+                                    <option value="04:30">04:30</option>
+                                    <option value="05:00">05:00</option>
+                                    <option value="05:30">05:30</option>
+                                    <option value="06:00">06:00</option>
+                                    <option value="06:30">06:30</option>
+                                    <option value="07:00">07:00</option>
+                                    <option value="07:30">07:30</option>
+                                    <option value="08:00">08:00</option>
+                                    <option value="08:30">08:30</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="09:30">09:30</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="13:30">13:30</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="16:30">16:30</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="17:30">17:30</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="18:30">18:30</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="19:30">19:30</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="20:30">20:30</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="21:30">21:30</option>
+                                    <option value="22:00">22:00</option>
+                                    <option value="22:30">22:30</option>
+                                    <option value="23:00">23:00</option>
+                                    <option value="23:30">23:30</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-folder">画像フォルダ *</label>
+                            <div class="folder-input-wrapper">
+                                <input type="text" id="edit-folder" name="target_folder" required
+                                    placeholder="D:\art\work_a">
+                                <button type="button" id="browse-folder-btn" class="btn btn-secondary"
+                                    title="フォルダを参照">📁</button>
+                            </div>
+                            <div id="folder-drop-zone" class="folder-drop-zone">
+                                <span class="drop-zone-text">📂 フォルダパス入力の補助</span>
+                                <span class="drop-zone-hint">標準ブラウザでは D&D から絶対パスを取得できない場合があります。参照ボタンを優先してください。</span>
+                            </div>
+                            <div id="folder-validation" class="folder-validation hidden">
+                                <span class="validation-icon">✅</span>
+                                <span class="validation-text">画像ファイル: <span id="image-count">0</span>枚</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-tags">タグ（スペース区切り）</label>
+                            <input type="text" id="edit-tags" name="tags" placeholder="オリジナル 女の子 イラスト">
+                        </div>
+                    </div>
+
+                    <!-- Pixiv -->
+                    <div class="form-section">
+                        <h4>🎨 Pixiv</h4>
+                        <div class="form-group">
+                            <label for="edit-caption-pixiv">キャプション</label>
+                            <textarea id="edit-caption-pixiv" name="caption_pixiv" rows="4"
+                                placeholder="Pixiv用の説明文"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Patreon -->
+                    <div class="form-section">
+                        <h4>🎁 Patreon</h4>
+                        <div class="form-row">
+                            <div class="form-group flex-2">
+                                <label for="edit-caption-patreon">キャプション</label>
+                                <textarea id="edit-caption-patreon" name="caption_patreon" rows="3"
+                                    placeholder="Patreon用の説明文"></textarea>
+                            </div>
+                            <div class="form-group flex-1">
+                                <label for="edit-patreon-tier">公開範囲</label>
+                                <select id="edit-patreon-tier" name="patreon_tier">
+                                    <option value="">全員</option>
+                                    <option value="supporters">サポーターのみ</option>
+                                    <option value="premium">プレミアム</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-zip-password">Zipパスワード</label>
+                            <input type="text" id="edit-zip-password" name="zip_password" placeholder="（オプション）">
+                        </div>
+                    </div>
+
+                    <!-- Discord -->
+                    <div class="form-section">
+                        <h4>💬 Discord</h4>
+                        <div class="form-row">
+                            <div class="form-group flex-2">
+                                <label for="edit-caption-discord">メッセージ</label>
+                                <textarea id="edit-caption-discord" name="caption_discord" rows="3"
+                                    placeholder="Discord用メッセージ"></textarea>
+                            </div>
+                            <div class="form-group flex-1">
+                                <label for="edit-discord-channel">チャンネル</label>
+                                <select id="edit-discord-channel" name="discord_channel">
+                                    <option value="">デフォルト</option>
+                                    <option value="announcements">お知らせ</option>
+                                    <option value="supporters">サポーター</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 自動入力項目 -->
+                    <div class="form-section form-section-readonly">
+                        <h4>📎 自動入力</h4>
+                        <div class="form-group">
+                            <label for="edit-zip-url">MEGA URL</label>
+                            <input type="text" id="edit-zip-url" name="zip_url" readonly
+                                placeholder="（MEGA Upload後に自動入力）">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary modal-cancel">キャンセル</button>
+                <button type="submit" form="edit-task-form" class="btn btn-primary">💾 保存</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- フォルダブラウザモーダル -->
+    <div id="folder-browser-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>📁 フォルダを選択</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="folder-browser">
+                    <div class="folder-breadcrumb" id="folder-breadcrumb">
+                        <button class="breadcrumb-item" data-path="">💻 ドライブ</button>
+                    </div>
+                    <div class="folder-list" id="folder-list">
+                        <!-- フォルダ一覧がここに表示される -->
+                        <div class="folder-loading">読み込み中...</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary folder-browser-cancel">キャンセル</button>
+                <button type="button" id="folder-select-btn" class="btn btn-primary" disabled>📁 選択</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

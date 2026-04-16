@@ -1,0 +1,93 @@
+# main model は user-level の `C:\Users\ezomu\.codex\config.toml` を既定とする
+# この workspace では、サブエージェント個別設定だけを `.codex/agents/*.toml` で上書きする
+
+[features]
+multi_agent = true
+
+[roles]
+request-translator = ".codex/agents/request-translator.toml"
+request_translator = ".codex/agents/request-translator.toml"
+pre-implementation-diagnosis = ".codex/agents/tech-diagnostician.toml"
+pre_implementation_diagnosis = ".codex/agents/tech-diagnostician.toml"
+code-mapper = ".codex/agents/code-mapper.toml"
+code_mapper = ".codex/agents/code-mapper.toml"
+ui-auditor = ".codex/agents/ui-auditor.toml"
+ui_auditor = ".codex/agents/ui-auditor.toml"
+ui-fixer = ".codex/agents/ui-fixer.toml"
+ui_fixer = ".codex/agents/ui-fixer.toml"
+implementation-planner = ".codex/agents/implementation-planner.toml"
+implementation_planner = ".codex/agents/implementation-planner.toml"
+plan-reviewer = ".codex/agents/plan-reviewer.toml"
+plan_reviewer = ".codex/agents/plan-reviewer.toml"
+code-reviewer = ".codex/agents/code-reviewer.toml"
+code_reviewer = ".codex/agents/code-reviewer.toml"
+docs-curator = ".codex/agents/docs-curator.toml"
+docs_curator = ".codex/agents/docs-curator.toml"
+documentation-engineer = ".codex/agents/documentation-engineer.toml"
+documentation_engineer = ".codex/agents/documentation-engineer.toml"
+subagent-debug-review = ".codex/agents/subagent-debug-review.toml"
+subagent_debug_review = ".codex/agents/subagent-debug-review.toml"
+python-web-electron-shell-migrator = ".codex/agents/python-web-electron-shell-migrator.toml"
+python_web_electron_shell_migrator = ".codex/agents/python-web-electron-shell-migrator.toml"
+windows-python-gui-repo-triage = ".codex/agents/windows-python-gui-repo-triage.toml"
+windows_python_gui_repo_triage = ".codex/agents/windows-python-gui-repo-triage.toml"
+legacy-app-remake-planner = ".codex/agents/legacy-app-remake-planner.toml"
+legacy_app_remake_planner = ".codex/agents/legacy-app-remake-planner.toml"
+pixiv-tool-workspace-maintainer = ".codex/agents/pixiv-tool-workspace-maintainer.toml"
+pixiv_tool_workspace_maintainer = ".codex/agents/pixiv-tool-workspace-maintainer.toml"
+post-manager-maintainer = ".codex/agents/post-manager-maintainer.toml"
+post_manager_maintainer = ".codex/agents/post-manager-maintainer.toml"
+workspace-delegation-orchestrator = ".codex/agents/workspace-delegation-orchestrator.toml"
+workspace_delegation_orchestrator = ".codex/agents/workspace-delegation-orchestrator.toml"
+
+[agents.request_translator]
+description = "Translate ambiguous or multi-topic requests into structured pre-implementation tasks."
+config_file = ".codex/agents/request-translator.toml"
+
+[agents.pre_implementation_diagnosis]
+description = "Compare realistic implementation approaches before coding when UI, architecture, or cross-layer design choices matter."
+config_file = ".codex/agents/tech-diagnostician.toml"
+
+[agents.code_mapper]
+description = "Map entry points, owning files, branch points, and side-effect boundaries before changes."
+config_file = ".codex/agents/code-mapper.toml"
+
+[agents.plan_reviewer]
+description = "Review a remake or refactor plan before implementation and find risks, missing conditions, and over-broad scope."
+config_file = ".codex/agents/plan-reviewer.toml"
+
+[agents.ui_fixer]
+description = "Organize the smallest safe patch strategy for a reproduced UI issue without broadening scope."
+config_file = ".codex/agents/ui-fixer.toml"
+
+[agents.documentation_engineer]
+description = "Align documentation updates with real code paths, workflows, assumptions, and recovery steps."
+config_file = ".codex/agents/documentation-engineer.toml"
+
+[agents.subagent_debug_review]
+description = "Investigate complex bugs and strict reviews, splitting work into bounded investigation tracks when justified."
+config_file = ".codex/agents/subagent-debug-review.toml"
+
+[agents.python_web_electron_shell_migrator]
+description = "Plan and implement safe Electron shell migration around an existing local Python web backend."
+config_file = ".codex/agents/python-web-electron-shell-migrator.toml"
+
+[agents.windows_python_gui_repo_triage]
+description = "Triage a Windows-first multi-tool workspace into real apps, entry points, dependencies, and early risks."
+config_file = ".codex/agents/windows-python-gui-repo-triage.toml"
+
+[agents.legacy_app_remake_planner]
+description = "Plan a safe remake of an existing app while preserving current behavior and operational safety."
+config_file = ".codex/agents/legacy-app-remake-planner.toml"
+
+[agents.pixiv_tool_workspace_maintainer]
+description = "Maintain Pixiv-related local tools while protecting local state, presets, and posting workflows."
+config_file = ".codex/agents/pixiv-tool-workspace-maintainer.toml"
+
+[agents.post_manager_maintainer]
+description = "Maintain the Post Manager project safely across CLI, Web UI, automation, CSV data, and browser profiles."
+config_file = ".codex/agents/post-manager-maintainer.toml"
+
+[agents.workspace_delegation_orchestrator]
+description = "Coordinate subagents safely when the user explicitly permits delegation, parallel work, or split execution."
+config_file = ".codex/agents/workspace-delegation-orchestrator.toml"

@@ -1,0 +1,31 @@
+# Browser profiles (binary data, long paths, runtime state)
+**/edge_profile/
+**/firefox_profile/
+**/chrome_profile/
+**/browser_profile/
+**/chrome_post_profile/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Codex tmp
+.codex_tmp/
+
+# Node
+node_modules/

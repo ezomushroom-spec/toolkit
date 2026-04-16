@@ -1,0 +1,12 @@
+<Application
+    x:Class="MosaicRemake.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="PanelBrush" Color="#FF1D222B" />
+        <SolidColorBrush x:Key="PanelAltBrush" Color="#FF242B36" />
+        <SolidColorBrush x:Key="PanelBorderBrush" Color="#FF3D4654" />
+        <SolidColorBrush x:Key="AccentBrush" Color="#FF5AA0FF" />
+        <SolidColorBrush x:Key="TextSubtleBrush" Color="#FF9AA4B2" />
+    </Application.Resources>
+</Application>

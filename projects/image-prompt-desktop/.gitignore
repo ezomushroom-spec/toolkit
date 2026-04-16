@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.spec
+*.log
+data/session.json
+data/situations.json
+data/wildcard_drafts.json

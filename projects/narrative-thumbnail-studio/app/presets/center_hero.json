@@ -1,0 +1,16 @@
+{
+  "name": "center_hero",
+  "display_name": "中央主役+周囲",
+  "category": "grid",
+  "min_images": 3,
+  "max_images": 5,
+  "parameters": {
+    "gap": {"type": "int", "default": 4, "min": 0, "max": 20, "label": "グリッド間隔(px)"},
+    "bg_color": {"type": "color", "default": "#000000", "label": "背景色"},
+    "hero_ratio": {"type": "float", "default": 0.5, "min": 0.3, "max": 0.7, "label": "中央主役比率"}
+  },
+  "text_overlay": {
+    "label": null,
+    "arrow": null
+  }
+}

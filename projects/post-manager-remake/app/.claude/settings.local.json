@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(pip show:*)",
+      "Bash(pip index:*)",
+      "Bash(pip install mega.py==)",
+      "Bash(python:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(megals:*)",
+      "Bash(winget install:*)",
+      "Bash(scoop install:*)",
+      "Bash(mega-version)",
+      "Bash(mega-help)",
+      "Bash(where mega-*)"
+    ]
+  }
+}

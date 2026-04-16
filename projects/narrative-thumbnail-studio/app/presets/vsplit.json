@@ -1,0 +1,16 @@
+{
+  "name": "vsplit",
+  "display_name": "縦分割",
+  "category": "comparison",
+  "min_images": 2,
+  "max_images": 2,
+  "parameters": {
+    "split_ratio": {"type": "float", "default": 0.5, "min": 0.05, "max": 0.95, "label": "分割位置"},
+    "border_width": {"type": "int", "default": 2, "min": 0, "max": 20, "label": "境界線太さ"},
+    "border_color": {"type": "color", "default": "#FFFFFF", "label": "境界線色"}
+  },
+  "text_overlay": {
+    "label": {"position": "bottom", "bg_opacity": 0.6},
+    "arrow": null
+  }
+}

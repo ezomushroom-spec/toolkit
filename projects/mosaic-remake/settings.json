@@ -1,0 +1,39 @@
+{
+    "model_path": "E:/codex/workspace/projects/mosaic-remake/ntd11_anime_nsfw_segm_v5-variant1.pt",
+    "input_dir": "E:\\easyreforge\\stable-diffusion-webui-reForge\\outputs\\extras-images",
+    "output_dir": "ここにドロップ\nまたは参照ボタンで選択",
+    "params": {
+        "mask_type": "pixel",
+        "shape_type": "mask",
+        "imgsz": 960,
+        "strength": 20.0,
+        "margin": 18.0,
+        "show_boxes": false
+    },
+    "class_settings": {
+        "pussy": {
+            "enabled": true,
+            "conf": 0.6
+        },
+        "penis": {
+            "enabled": true,
+            "conf": 0.65
+        },
+        "testicles": {
+            "enabled": true,
+            "conf": 0.7
+        },
+        "anus": {
+            "enabled": false,
+            "conf": 0.3
+        },
+        "nipples": {
+            "enabled": false,
+            "conf": 0.3
+        },
+        "breast": {
+            "enabled": false,
+            "conf": 0.3
+        }
+    }
+}

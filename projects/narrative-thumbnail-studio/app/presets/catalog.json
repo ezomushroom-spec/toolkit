@@ -1,0 +1,16 @@
+{
+  "name": "catalog",
+  "display_name": "カタログ型",
+  "category": "grid",
+  "min_images": 2,
+  "max_images": 9,
+  "parameters": {
+    "gap": {"type": "int", "default": 4, "min": 0, "max": 20, "label": "グリッド間隔(px)"},
+    "bg_color": {"type": "color", "default": "#000000", "label": "背景色"},
+    "fill_mode": {"type": "choice", "default": "color", "choices": ["color", "text", "asymmetric"], "label": "余白処理"}
+  },
+  "text_overlay": {
+    "label": null,
+    "arrow": null
+  }
+}

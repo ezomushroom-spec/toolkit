@@ -1,0 +1,26 @@
+[
+  {
+    "id": "blue_archive",
+    "name": "ブルーアーカイブ",
+    "aliases": ["ブルアカ", "Blue Archive"],
+    "series": "ブルーアーカイブ",
+    "characters": ["シロコ", "ホシノ", "アル"],
+    "related_tags": ["ブルーアーカイブ", "ブルアカ"]
+  },
+  {
+    "id": "genshin_impact",
+    "name": "原神",
+    "aliases": ["Genshin Impact"],
+    "series": "原神",
+    "characters": ["蛍", "刻晴", "胡桃"],
+    "related_tags": ["原神"]
+  },
+  {
+    "id": "nikke",
+    "name": "勝利の女神:NIKKE",
+    "aliases": ["NIKKE", "メガニケ"],
+    "series": "勝利の女神:NIKKE",
+    "characters": ["ラピ", "アニス", "マリアン"],
+    "related_tags": ["NIKKE", "メガニケ"]
+  }
+]

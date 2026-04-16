@@ -1,0 +1,1 @@
+"""Launcher remake application package."""

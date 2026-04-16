@@ -1,0 +1,8 @@
+interface:
+  display_name: "Desktop DnD Path Resolution"
+  short_description: "ブラウザと Electron で安全な D&D パス解決を設計する"
+  brand_color: "#46A9A6"
+  default_prompt: "Use $desktop-dnd-path-resolution to design safe drag-and-drop path handling for a local app that runs in both browser and Electron-like environments."
+
+policy:
+  allow_implicit_invocation: true

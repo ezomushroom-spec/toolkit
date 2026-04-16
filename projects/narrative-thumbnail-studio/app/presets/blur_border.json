@@ -1,0 +1,15 @@
+{
+  "name": "blur_border",
+  "display_name": "境界ぼかし",
+  "category": "comparison",
+  "min_images": 2,
+  "max_images": 2,
+  "parameters": {
+    "split_ratio": {"type": "float", "default": 0.5, "min": 0.05, "max": 0.95, "label": "境界位置"},
+    "fade_width": {"type": "int", "default": 60, "min": 10, "max": 200, "label": "フェード幅(px)"}
+  },
+  "text_overlay": {
+    "label": null,
+    "arrow": null
+  }
+}

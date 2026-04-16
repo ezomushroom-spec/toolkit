@@ -1,0 +1,7 @@
+playwright
+Pillow
+mega.py
+tenacity<6.0.0
+PyYAML
+fastapi
+uvicorn[standard]

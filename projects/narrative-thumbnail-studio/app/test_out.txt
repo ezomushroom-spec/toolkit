@@ -1,0 +1,9 @@
+Output size: (1200, 900)
+Viewport size: PySide6.QtCore.QSize(798, 598)
+Scene rect: PySide6.QtCore.QRectF(0.000000, 0.000000, 1200.000000, 900.000000)
+View transform pre-update: PySide6.QtGui.QTransform(0.664444, 0.000000, 0.000000, 0.000000, 0.664444, 0.000000, 0.000000, 0.000000, 1.000000)
+hq_mode: False True
+Item0 pos: PySide6.QtCore.QPointF(-300.000000, 0.000000)
+Item0 scale: 1.0
+Item0 clip_rect: PySide6.QtCore.QRectF(300.000000, 0.000000, 600.000000, 900.000000)
+Item0 bounding rect: PySide6.QtCore.QRectF(0.000000, 0.000000, 1200.000000, 900.000000)

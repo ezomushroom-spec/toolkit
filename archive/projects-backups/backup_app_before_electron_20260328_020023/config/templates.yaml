@@ -1,0 +1,21 @@
+pixiv: |
+  {caption_pixiv}
+
+  {image_count}枚の差分画像はPatreonで公開しています。
+  ----------------
+  過去作はBoothにもまとめています。 
+  Patreon: https://lit.link/hariganemental 
+  Fanza：https://www.dmm.co.jp/dc/doujin/-/list/=/article=maker/id=210603/ 
+  Twitter : twitter/hariganemental2 
+  Booth(過去作まとめ)：https://harigane-mental.booth.pm/
+
+patreon: |
+  {title}({image_count}枚) をDiscordに投稿しました！
+  
+  投稿の閲覧方法：https://www.patreon.com/posts/103574221
+  How To View: https://www.patreon.com/posts/103574221
+
+discord: |
+  **New Post!**
+  {title}({image_count}枚)
+  Download: {zip_url}

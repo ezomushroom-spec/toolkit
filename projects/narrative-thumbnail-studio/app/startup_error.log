@@ -1,0 +1,20 @@
+debug start 
+python=C:\Users\ezomu\AppData\Local\Programs\Python\Python310\python.exe 
+Traceback (most recent call last):
+  File "E:\自作アプリ集\narrative-thumbnail-studio\main.py", line 49, in <module>
+    main()
+  File "E:\自作アプリ集\narrative-thumbnail-studio\main.py", line 43, in main
+    window = MainWindow()
+  File "E:\自作アプリ集\narrative-thumbnail-studio\ui\main_window.py", line 140, in __init__
+    self._setup_ui()
+  File "E:\自作アプリ集\narrative-thumbnail-studio\ui\main_window.py", line 184, in _setup_ui
+    self.preset_panel = PresetPanel(self.preset_registry)
+  File "E:\自作アプリ集\narrative-thumbnail-studio\ui\preset_panel.py", line 727, in __init__
+    self._setup_ui()
+  File "E:\自作アプリ集\narrative-thumbnail-studio\ui\preset_panel.py", line 863, in _setup_ui
+    self._populate_preset_lists()
+  File "E:\自作アプリ集\narrative-thumbnail-studio\ui\preset_panel.py", line 897, in _populate_preset_lists
+    item.setSizeHint(row.sizeHint())
+  File "E:\自作アプリ集\narrative-thumbnail-studio\ui\preset_panel.py", line 146, in sizeHint
+    return card_hint + QSize(0, 8)
+NameError: name 'QSize' is not defined

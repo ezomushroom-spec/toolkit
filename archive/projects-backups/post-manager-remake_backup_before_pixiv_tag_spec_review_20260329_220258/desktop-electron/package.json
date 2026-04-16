@@ -1,0 +1,14 @@
+{
+  "name": "post-manager-electron-shell",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Electron shell for Post Manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^36.2.0"
+  }
+}
