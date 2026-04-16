@@ -27,8 +27,6 @@ documentation-engineer = ".codex/agents/documentation-engineer.toml"
 documentation_engineer = ".codex/agents/documentation-engineer.toml"
 subagent-debug-review = ".codex/agents/subagent-debug-review.toml"
 subagent_debug_review = ".codex/agents/subagent-debug-review.toml"
-python-web-electron-shell-migrator = ".codex/agents/python-web-electron-shell-migrator.toml"
-python_web_electron_shell_migrator = ".codex/agents/python-web-electron-shell-migrator.toml"
 windows-python-gui-repo-triage = ".codex/agents/windows-python-gui-repo-triage.toml"
 windows_python_gui_repo_triage = ".codex/agents/windows-python-gui-repo-triage.toml"
 legacy-app-remake-planner = ".codex/agents/legacy-app-remake-planner.toml"
@@ -68,9 +66,20 @@ config_file = ".codex/agents/documentation-engineer.toml"
 description = "Investigate complex bugs and strict reviews, splitting work into bounded investigation tracks when justified."
 config_file = ".codex/agents/subagent-debug-review.toml"
 
-[agents.python_web_electron_shell_migrator]
-description = "Plan and implement safe Electron shell migration around an existing local Python web backend."
-config_file = ".codex/agents/python-web-electron-shell-migrator.toml"
+[agents.ui_auditor]
+description = "Audit existing UI for findability, information structure, visual priority, safety, and error display issues."
+config_file = ".codex/agents/ui-auditor.toml"
+
+[agents.implementation_planner]
+description = "Organize change targets, impact scope, data effects, rollback plans, and implementation order before coding."
+config_file = ".codex/agents/implementation-planner.toml"
+
+[agents.docs_curator]
+description = "Audit role separation across AGENTS.md, skills, docs, and project AGENTS to find duplicates and misplacements."
+config_file = ".codex/agents/docs-curator.toml"
+
+# [agents.python_web_electron_shell_migrator] — 削除済み (skill-inventory 棚卸し判定: 極めて限定的なため削除、知見は pre-implementation-diagnosis へ吸収)
+
 
 [agents.windows_python_gui_repo_triage]
 description = "Triage a Windows-first multi-tool workspace into real apps, entry points, dependencies, and early risks."
