@@ -1,6 +1,6 @@
-# empirical-prompt-tuning PR draft
+# empirical-prompt-tuning PR record
 
-## タイトル案
+## タイトル
 
 `Introduce empirical prompt tuning rollout for workspace skills`
 
@@ -32,7 +32,14 @@
 - result log を個別文書正本にした方針が妥当か
 - `AGENTS.md` section trial の一区切り判断が妥当か
 
+## 公開状態
+
+- PR: `https://github.com/ezomushroom-spec/toolkit/pull/2`
+- 状態: draft
+- base branch: `master`
+- head branch: `codex/empirical-prompt-tuning-rollout`
+- この文書は、実際に作成した PR のタイトルと本文の記録として残す
+
 ## 補足
 
-- remote 未設定のため、この下書きはローカル handoff 用
-- worktree には別件の未反映差分が残っているが、この branch の 2 commit には含めていない
+- worktree には別件の未反映差分が残っているが、この PR の commit には含めていない
