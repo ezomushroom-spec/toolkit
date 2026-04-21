@@ -14,7 +14,9 @@
 10. `AGENTS.md` trial の区切り判断は `docs/empirical-prompt-tuning-agents-trial-pause-decision_20260422.md`
 11. 外部反映の切り方は `docs/empirical-prompt-tuning-external-reflection-plan_20260422.md`
 12. 実 staging 単位は `docs/empirical-prompt-tuning-staging-manifest_20260422.md`
-13. 残りの未完了点だけを見るなら `docs/empirical-prompt-tuning-finish-list_20260422.md`
+13. publish 手順の handoff は `docs/empirical-prompt-tuning-publish-handoff_20260422.md`
+14. PR 下書きは `docs/empirical-prompt-tuning-pr-draft_20260422.md`
+15. 残りの未完了点だけを見るなら `docs/empirical-prompt-tuning-finish-list_20260422.md`
 
 この project は、workspace 自体の実効性計測と改善観測の置き場である。
 個別案件のコードや仕様はここに置かない。
