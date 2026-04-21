@@ -30,6 +30,12 @@ Before finalizing a launcher:
 4. Decide whether a debug launcher is also needed.
 5. Decide interpreter priority, for example `.venv`, `venv`, `py -3.10`, then `python`.
 
+For dependency install:
+
+- if the launcher is a developer bootstrapper for a local workspace, auto-install can be acceptable
+- if the launcher is intended for end users or double-click distribution, do not auto-install unless the project explicitly allows it
+- when auto-install is not clearly allowed, fail visibly and tell the user what setup step is missing
+
 # Standard launcher pattern
 
 Use this shape unless the project needs something more specific:
@@ -98,6 +104,7 @@ To prevent that class of failure:
 - do not assume `py -3` points at the intended environment
 - prefer project-local interpreters first
 - if the app has a known supported minor version such as `3.10`, prefer `py -3.10` over broad selectors
+- use version-pinned `py -x.y` only after local interpreter candidates were probed or ruled out
 - keep startup log lines ASCII-safe when they may print Windows paths
 
 # Suggested final check

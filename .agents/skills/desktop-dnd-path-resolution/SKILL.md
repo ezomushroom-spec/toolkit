@@ -84,4 +84,4 @@ When using this skill, produce:
 # Good companion skills
 
 - use `ui-remake-safe` when the drop zone also needs UX improvement
-- use `python-web-electron-shell-migrator` when Electron wrapping is being added at the same time
+- use `pre-implementation-diagnosis` when desktop shell adoption and responsibility split are still undecided

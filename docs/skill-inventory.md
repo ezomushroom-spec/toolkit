@@ -12,10 +12,10 @@
 
 件数は次のとおり。
 
-- workspace: 15
+- workspace: 16
 - home: 28
 - plugin: 7
-- 合計: 52
+- 合計: 53
 
 ## 2. 棚卸し方針
 
@@ -44,11 +44,13 @@
 - `implementation-planner`
 - `plan-review`
 - `code-review`
+- `empirical-prompt-tuning`
 
 判断:
 
 - workspace の標準導線として役割が明確
 - 依頼整理 → 診断 → 計画 → レビュー の段階が崩れていない
+- `empirical-prompt-tuning` は実装導線そのものではなく、既存 instruction の品質保証レイヤーとして補助的に載せる
 - 統合すると逆に入口が曖昧になるため統合見送り
 
 ### 3.2 workspace UI 系
@@ -207,6 +209,7 @@
 - 近接は多いが、役割重複よりも「入口の説明不足」が主因
 - ただし `ui-domain-fit-guard` は方向決め skill に自然に吸収できる範囲だった
 - `implementation-brief-builder` は `implementation-planner` の最終出力へ統合した
+- `empirical-prompt-tuning` は統合先ではなく、既存 skill / prompt を評価・改訂する protocol skill として追加する
 
 ### 4.2 今すぐ説明強化したい skill 群
 
@@ -259,3 +262,4 @@
 3. `要説明強化` 判定の skill は、必要時に本文か入口文書で差分説明を足す
 4. 統合や削除は、trigger の不安定さが実際に出てから判断する
 5. `python-web-electron-shell-migrator` のような極端に限定的な skill は、実案件で使われなくなった時点で削除候補に入れる
+6. `empirical-prompt-tuning` は新規 skill や大幅改訂直後の評価プロトコルとしてだけ使い、既存 skill の全面テンプレ化には使わない
