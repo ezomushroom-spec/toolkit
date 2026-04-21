@@ -11,12 +11,14 @@
 7. 再評価候補は `docs/empirical-prompt-tuning-second-iteration-candidates_20260422.md`
 8. 実務用の短い運用ルールは `docs/empirical-prompt-tuning-operating-rule_20260422.md`
 9. result の残し方は `docs/empirical-prompt-tuning-result-log-storage-policy_20260422.md`
-10. `AGENTS.md` trial の区切り判断は `docs/empirical-prompt-tuning-agents-trial-pause-decision_20260422.md`
-11. 外部反映の切り方は `docs/empirical-prompt-tuning-external-reflection-plan_20260422.md`
-12. 実 staging 単位は `docs/empirical-prompt-tuning-staging-manifest_20260422.md`
-13. branch publish と PR 作成の記録は `docs/empirical-prompt-tuning-publish-handoff_20260422.md`
-14. 実際に使った PR 本文の記録は `docs/empirical-prompt-tuning-pr-draft_20260422.md`
-15. 残りの未完了点だけを見るなら `docs/empirical-prompt-tuning-finish-list_20260422.md`
+10. scored eval の補助案は `docs/empirical-prompt-tuning-scored-eval-proposal_20260422.md`
+11. `AGENTS.md` trial の区切り判断は `docs/empirical-prompt-tuning-agents-trial-pause-decision_20260422.md`
+12. 外部反映の切り方は `docs/empirical-prompt-tuning-external-reflection-plan_20260422.md`
+13. 実 staging 単位は `docs/empirical-prompt-tuning-staging-manifest_20260422.md`
+14. branch publish と PR 作成の記録は `docs/empirical-prompt-tuning-publish-handoff_20260422.md`
+15. 実際に使った PR 本文の記録は `docs/empirical-prompt-tuning-pr-draft_20260422.md`
+16. 公開対象の whitelist は `docs/public-release-scope_20260422.md`
+17. 残りの未完了点だけを見るなら `docs/empirical-prompt-tuning-finish-list_20260422.md`
 
 この project は、workspace 自体の実効性計測と改善観測の置き場である。
 個別案件のコードや仕様はここに置かない。
