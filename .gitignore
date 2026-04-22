@@ -13,11 +13,14 @@ __pycache__/
 # Build artifacts
 dist/
 build/
+bin/
+obj/
 *.egg-info/
 
 # IDE
 .vscode/
 .idea/
+.claude/
 
 # OS
 Thumbs.db
@@ -29,3 +32,22 @@ Desktop.ini
 
 # Node
 node_modules/
+
+# Logs and runtime state
+*.log
+runtime/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary and generated review assets
+tmp/
+tmp_*/
+*_tmp/
+*_capture.png
+
+# Backups and local snapshots
+src_backup_*/
+archive/projects-backups/
