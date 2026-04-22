@@ -1,5 +1,0 @@
-node_modules/
-dist/
-desktop-electron/node_modules/
-desktop-electron/runtime/
-*.log

@@ -51,3 +51,6 @@ tmp_*/
 # Backups and local snapshots
 src_backup_*/
 archive/projects-backups/
+
+# Private app projects
+projects/
